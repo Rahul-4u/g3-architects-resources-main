@@ -41,11 +41,34 @@
        
     }
     .futear-text h3{
-        text-align: center;
+        text-align: left;
         font-size: 30px;
         line-height: 32px;
     }
     .futear-text p{
-        text-align: center;
+        text-align: left;
+    }
+
+    /* enjoy-------------------- */
+
+    .enjoy-content{
+        display: block;
+    }
+    .enjoy-left {
+        width: 100%;
+    }
+    .enjoy-right{
+        max-width: 100%;
+    }
+    .enjoy-card{
+        position: static;
+        width: 80%;
+        margin: 15px auto;
+        left: 0;
+        bottom: 0;
+    }
+    .enjoy-text h1{
+        font-size: 30px;
+        line-height: 30px;
     }
 }
